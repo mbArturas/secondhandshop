@@ -1,0 +1,23 @@
+{
+  "name": "secondhandeshop",
+  "version": "1.0.0",
+  "description": "eCommerce application buil with MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbArturas/secondhandshop.git"
+  },
+  "author": "Arturas Bieliunas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbArturas/secondhandshop/issues"
+  },
+  "homepage": "https://github.com/mbArturas/secondhandshop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
