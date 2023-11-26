@@ -132,7 +132,7 @@ const getUsers = asyncHandler(async (req, res) => {
 const getUserByID = asyncHandler(async (req, res) => {
   const user = await User.findById(req.params.id).select('-password');
 
-  if (uaer) {
+  if (user) {
     res.status(200).json(user);
   } else {
     res.status(404);
